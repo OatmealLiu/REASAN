@@ -1,6 +1,17 @@
 # REASAN: Learning Reactive Safe Navigation for Legged Robots
+[**YouTube**](https://youtu.be/ivkr86J3R7g?si=ghiKTBRMQJmvbrYd) | **[arXiv](https://arxiv.org/abs/2512.09537)** | **[Website](https://asig-x.github.io/reasan_web)** 
 
-REASAN is a safe reactive navigation system for the Unitree Go2 robot, featuring modularized system design and real-time on-board deployment.
+REASAN is a modularized end-to-end framework for legged reactive navigation in complex dynamic environments using a single LiDAR sensor. The system comprises four modules: three RL policies for locomotion, safety shielding, and navigation, and a transformer-based exteroceptive estimator, each trained as a lightweight neural network in simulation. In the real world, REASAN demonstrates fully onboard, real-time reactive navigation in complex environments across both single- and multi-robot settings.
+
+### BibTex Citation
+```
+@ARTICLE{yuan2025reasan,
+  author={Yuan, Qihao and Cao, Ziyu and Cao, Ming and Li, Kailai},
+  title={REASAN: Learning Reactive Safe Navigation for Legged Robots}, 
+  journal={arXiv preprint arXiv:2512.09537},
+  year={2025}
+}
+```
 
 Feel free to open issues if you encounter any problems or have any questions when using the code!
 
