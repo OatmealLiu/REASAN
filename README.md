@@ -5,9 +5,9 @@ REASAN is a modularized end-to-end framework for legged reactive navigation in c
 
 ### BibTex Citation
 ```
-@ARTICLE{yuan2025reasan,
-  author={Yuan, Qihao and Cao, Ziyu and Cao, Ming and Li, Kailai},
+@article{yuan2025reasan,
   title={REASAN: Learning Reactive Safe Navigation for Legged Robots}, 
+  author={Yuan, Qihao and Cao, Ziyu and Cao, Ming and Li, Kailai},
   journal={arXiv preprint arXiv:2512.09537},
   year={2025}
 }
