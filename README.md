@@ -1,5 +1,5 @@
 # REASAN: Learning Reactive Safe Navigation for Legged Robots
-[**YouTube**](https://youtu.be/ivkr86J3R7g?si=ghiKTBRMQJmvbrYd) | **[arXiv](https://arxiv.org/abs/2512.09537)** | **[Website](https://asig-x.github.io/reasan_web)** 
+[**YouTube**](https://youtu.be/ivkr86J3R7g?si=ghiKTBRMQJmvbrYd) | **[arXiv](https://arxiv.org/abs/2512.09537)** | **[Website](https://asig-x.github.io/reasan_web)** | **[CAD Models](https://asig-x.github.io/reasan_web/cad-models.html)** 
 
 REASAN is a modularized end-to-end framework for learning legged reactive navigation in complex dynamic environments with a single LiDAR sensor. The system comprises four modules: three RL policies for locomotion, safety shielding, and navigation, and a transformer-based exteroceptive estimator, each trained as a lightweight neural network in simulation. In the real world, REASAN demonstrates fully onboard, real-time reactive navigation in complex environments across both single- and multi-robot settings.
 
