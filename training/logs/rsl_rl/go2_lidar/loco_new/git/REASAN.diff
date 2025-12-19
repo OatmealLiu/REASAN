@@ -1,0 +1,38 @@
+--- git status ---
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+	modified:   training/logs/rsl_rl/go2_lidar/loco_1/exported/policy.pt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.vscode/
+	training/logs/rsl_rl/go2_lidar/loco_new/
+	training/scripts/play_loco_efficient.py
+	try.py
+
+no changes added to commit (use "git add" and/or "git commit -a") 
+
+
+--- git diff ---
+diff --git a/README.md b/README.md
+index 900b45d..d1ab1af 100644
+--- a/README.md
++++ b/README.md
+@@ -51,6 +51,9 @@ Install REASAN:
+ ```
+ pip install -e ./go2_lidar
+ pip install -e ./ray_predictor
++
++pip install plotly nicegui
++
+ ```
+ 
+ ## Play Trained Models in IsaacLab
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_1/exported/policy.pt b/training/logs/rsl_rl/go2_lidar/loco_1/exported/policy.pt
+index 9cbbbb8..b07284d 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_1/exported/policy.pt and b/training/logs/rsl_rl/go2_lidar/loco_1/exported/policy.pt differ

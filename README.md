@@ -51,6 +51,9 @@ Install REASAN:
 ```
 pip install -e ./go2_lidar
 pip install -e ./ray_predictor
+
+pip install plotly nicegui
+
 ```
 
 ## Play Trained Models in IsaacLab
@@ -90,14 +93,15 @@ python scripts/train_loco.py --run_name loco_new --resume --load_run loco_new --
 Train safety shield policy:
 ```
 # first stage training:
-python scripts/train_filter.py --run_name filter_new --num_envs 1024 --max_iterations 10000 --wandb_proj go2_filter --confirm
+python scripts/train_filter.py --run_name filter_new --num_envs 8 --max_iterations 10000 --wandb_proj go2_filter --confirm
+
 # second stage training
-python scripts/train_filter.py --run_name filter_new --resume --load_run filter_new --num_envs 1024 --max_iterations 10000 --wandb_proj go2_filter --with_dyn_obst --confirm
+python scripts/train_filter.py --run_name filter_new --resume --load_run filter_new --num_envs 8 --max_iterations 10000 --wandb_proj go2_filter --with_dyn_obst --confirm
 ```
 
 Train navigation policy:
 ```
-python scripts/train_nav.py --run_name nav_new --num_envs 1024 --max_iterations 10000 --wandb_proj go2_nav --with_dyn_obst --confirm
+python scripts/train_nav.py --run_name nav_new --num_envs 8 --max_iterations 10000 --wandb_proj go2_nav --with_dyn_obst --confirm
 ```
 
 The training will generate runs and checkpoins inside the `training/logs/rsl_rl/go2_lidar` folder.
@@ -113,10 +117,10 @@ First, you need to collect data with the safety shield policy:
 mkdir ray_predictor/ray_predictor/data
 
 # collect training data
-python scripts/play_filter.py --load_run filter_1 --with_dyn_obst --confirm --collect train --headless --num_envs 256
+python scripts/play_filter.py --load_run filter_1 --with_dyn_obst --confirm --collect train --headless --num_envs 8
 
 # collect validation data
-python scripts/play_filter.py --load_run filter_1 --with_dyn_obst --confirm --collect val --headless --num_envs 256
+python scripts/play_filter.py --load_run filter_1 --with_dyn_obst --confirm --collect val --headless --num_envs 8
 ```
 The datasets will be saved inside the `training/ray_predictor/ray_predictor/data` folder.
 
