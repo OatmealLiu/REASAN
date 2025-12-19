@@ -85,9 +85,10 @@ Train locomotion policy:
 ```
 # first you need to login with wandb in your terminal: https://docs.wandb.ai/models/ref/cli/wandb-login
 # first stage training:
-python scripts/train_loco.py --run_name loco_new --num_envs 4096 --max_iterations 5000 --wandb_proj go2_loco
+python scripts/train_loco.py --run_name loco_new --num_envs 8 --max_iterations 5000 --wandb_proj go2_loco
+
 # second stage training for higher speed and better robustness:
-python scripts/train_loco.py --run_name loco_new --resume --load_run loco_new --num_envs 4096 --max_iterations 5000 --wandb_proj go2_loco --second_stage
+python scripts/train_loco.py --run_name loco_new --resume --load_run loco_new --num_envs 8 --max_iterations 5000 --wandb_proj go2_loco --second_stage
 ```
 
 Train safety shield policy:
