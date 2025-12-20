@@ -70,3 +70,6 @@ output.txt
 # *.onnx
 
 .github
+
+.pt
+.pth
