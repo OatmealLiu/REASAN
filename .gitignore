@@ -71,5 +71,5 @@ output.txt
 
 .github
 
-.pt
-.pth
+*.pt
+*.pth
