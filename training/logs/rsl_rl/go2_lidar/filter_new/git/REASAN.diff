@@ -1,0 +1,198 @@
+--- git status ---
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_0.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_1000.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_1200.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_1400.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_1600.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_1800.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_200.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_2000.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_2200.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_2400.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_2600.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_2800.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_3000.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_3200.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_3400.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_3600.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_3800.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_400.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_4000.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_4200.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_4400.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_4600.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_4800.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_4999.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_600.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/model_800.pt
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/params/agent.yaml
+	modified:   training/logs/rsl_rl/go2_lidar/loco_new/params/env.yaml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	training/logs/rsl_rl/go2_lidar/filter_new/
+
+no changes added to commit (use "git add" and/or "git commit -a") 
+
+
+--- git diff ---
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_0.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_0.pt
+index 1cce120..aa2ca56 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_0.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_0.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_1000.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_1000.pt
+index 27546a4..4d6e6c2 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_1000.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_1000.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_1200.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_1200.pt
+index c428b59..00245d6 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_1200.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_1200.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_1400.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_1400.pt
+index 8529320..067232e 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_1400.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_1400.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_1600.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_1600.pt
+index 05e6d1a..d8fe7c3 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_1600.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_1600.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_1800.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_1800.pt
+index 23e2c38..10333b3 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_1800.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_1800.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_200.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_200.pt
+index 19d8fba..0345b4b 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_200.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_200.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_2000.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_2000.pt
+index 16c5f0e..56e8f99 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_2000.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_2000.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_2200.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_2200.pt
+index 329896b..fbaf9f2 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_2200.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_2200.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_2400.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_2400.pt
+index b5b2a02..6dedf20 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_2400.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_2400.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_2600.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_2600.pt
+index e27432d..96f2e11 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_2600.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_2600.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_2800.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_2800.pt
+index f08bf47..ee85057 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_2800.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_2800.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_3000.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_3000.pt
+index 3d6169d..9c7adeb 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_3000.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_3000.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_3200.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_3200.pt
+index d35d18d..62baa72 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_3200.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_3200.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_3400.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_3400.pt
+index 5d3ae57..da7ad44 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_3400.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_3400.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_3600.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_3600.pt
+index 4d9a95e..797f124 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_3600.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_3600.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_3800.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_3800.pt
+index 4209b15..f1ac95b 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_3800.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_3800.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_400.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_400.pt
+index db4977d..cc0a656 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_400.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_400.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_4000.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_4000.pt
+index 87fce69..bb2569d 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_4000.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_4000.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_4200.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_4200.pt
+index 1f8d903..ba83256 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_4200.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_4200.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_4400.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_4400.pt
+index c6b7c49..7a2f858 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_4400.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_4400.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_4600.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_4600.pt
+index 4371d65..2520e85 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_4600.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_4600.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_4800.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_4800.pt
+index 78f1c23..0725e8f 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_4800.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_4800.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_4999.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_4999.pt
+index bff23a7..f51c647 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_4999.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_4999.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_600.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_600.pt
+index f848a38..765b04c 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_600.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_600.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/model_800.pt b/training/logs/rsl_rl/go2_lidar/loco_new/model_800.pt
+index 0006c21..f67968f 100644
+Binary files a/training/logs/rsl_rl/go2_lidar/loco_new/model_800.pt and b/training/logs/rsl_rl/go2_lidar/loco_new/model_800.pt differ
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/params/agent.yaml b/training/logs/rsl_rl/go2_lidar/loco_new/params/agent.yaml
+index e0909c7..be25db5 100644
+--- a/training/logs/rsl_rl/go2_lidar/loco_new/params/agent.yaml
++++ b/training/logs/rsl_rl/go2_lidar/loco_new/params/agent.yaml
+@@ -40,6 +40,6 @@ run_name: loco_new
+ logger: tensorboard
+ neptune_project: isaaclab
+ wandb_project: isaaclab
+-resume: false
+-load_run: .*
++resume: true
++load_run: loco_new
+ load_checkpoint: model_.*.pt
+diff --git a/training/logs/rsl_rl/go2_lidar/loco_new/params/env.yaml b/training/logs/rsl_rl/go2_lidar/loco_new/params/env.yaml
+index 3e305de..baf3ce1 100644
+--- a/training/logs/rsl_rl/go2_lidar/loco_new/params/env.yaml
++++ b/training/logs/rsl_rl/go2_lidar/loco_new/params/env.yaml
+@@ -79,7 +79,7 @@ decimation: 4
+ is_finite_horizon: false
+ episode_length_s: 20.0
+ scene:
+-  num_envs: 4
++  num_envs: 8
+   env_spacing: 10
+   lazy_sensor_update: true
+   replicate_physics: false
+@@ -215,11 +215,11 @@ events:
+     params:
+       velocity_range:
+         x: !!python/tuple
+-        - -1.0
+-        - 1.0
++        - -1.5
++        - 1.5
+         y: !!python/tuple
+-        - -1.0
+-        - 1.0
++        - -1.5
++        - 1.5
+       asset_cfg:
+         name: robot
+         joint_names: null
+@@ -245,8 +245,8 @@ events:
+         preserve_order: false
+     mode: interval
+     interval_range_s: !!python/tuple
+-    - 5.0
+-    - 5.0
++    - 2.0
++    - 2.0
+     is_global_time: false
+     min_step_count_between_reset: 0
+ observation_space: 45
+@@ -355,10 +355,10 @@ robot:
+   actuator_value_resolution_debug_print: false
+ action_scale: 0.25
+ is_play_env: false
+-is_second_stage: false
++is_second_stage: true
+ cmd_resample_interval: !!python/tuple
+-- 4.0
+-- 4.0
++- 2.0
++- 3.0
+ static_friction_range: !!python/tuple
+ - 0.2
+ - 1.25
+@@ -372,7 +372,7 @@ terrain:
+   class_type: isaaclab.terrains.terrain_importer:TerrainImporter
+   collision_group: -1
+   prim_path: /World/ground
+-  num_envs: 4
++  num_envs: 8
+   terrain_type: generator
+   terrain_generator:
+     class_type: isaaclab.terrains.terrain_generator:TerrainGenerator

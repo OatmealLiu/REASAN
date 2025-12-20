@@ -1,5 +1,9 @@
 {
+    "python.defaultInterpreterPath": "/home/mliu/software/anaconda3/envs/env_reasan/bin/python",
+    "python.analysis.typeCheckingMode": "basic",
     "python-envs.defaultEnvManager": "ms-python.python:conda",
     "python-envs.defaultPackageManager": "ms-python.python:conda",
-    "python-envs.pythonProjects": []
+    "python-envs.pythonProjects": [],
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "python.terminal.activateEnvironment": true
 }
