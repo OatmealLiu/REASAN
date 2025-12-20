@@ -66,10 +66,7 @@ output.txt
 ./data
 *.h5
 *.pth
-# *.pt
-# *.onnx
+*.pt
+*.onnx
 
 .github
-
-*.pt
-*.pth
